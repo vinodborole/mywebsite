@@ -114,53 +114,33 @@
                       <div class="blog-post">
                         <div class="row">
                           <div class="col-md-8">
-                            <h3 class="title-post"><a href="blog_single.html"><i class="fa fa-picture-o"></i> My Fellow Coders</a></h3>
+                            <h3 class="title-post"><a href="blog_single.html"><i class="fa fa-picture-o"></i>Openstack Group-Based Policy</a></h3>
                           </div>
                           <div class="col-md-4">
                             <div class="blog-date">
-                              15 June, 2015
+                              14 April, 2016
                             </div>
                           </div>
                         </div>
                         <div class="body-post">
                         
                           <div class="imgWrapper">
-                            <img src="assets/images/blog/MyFellowCoders.png" class="img-full blog-img" alt="">
+                            <img src="assets/images/blog/gbp-openstack.png" class="img-full blog-img" alt="">
                           </div>
                             <p>
-							Do you remember the last time when you had to clean someone else’s CRAPPY code?  I am sure at least once in our lifetime we had to deal with a mess so grave that it took weeks to do what should have taken hours? Have you seen what should have been a one-line change, made instead in hundreds of different modules? These symptoms are all too common in the life of a coder. 
+							OpenStack has grown from a simple open source project to a major community-based initiative including thousands of contributors in more than a hundred countries.As OpenStack clouds begin to scale and the basic infrastructure-as-a-service (IaaS) use case evolves, developers have an opportunity to look beyond the initial challenges of setting up virtual machines, configuring storage devices, and orchestrating network connectivity on demand.Future IaaS environments need to focus on deployment and delivery of applications and services with speed, agility, flexibility, security, and scale rather than just orchestration of infrastructure components. For such solutions, a declarative policy engine can be a critical component. 
 							</p>
 							<p>
-							Wonder, why does this happen to code? Why good code turns into bad code? We have lots of explanations for it.
+							The new OpenStack Group-Based Policy (GBP) framework, designed to offer a new set of abstraction that allows to manage OpenStack infrastructure through declarative policy abstractions.GBP is designed on the principle of capturing application requirements directly rather than converting the requirements into a specific set of infrastructure configurations. It is initially targeted at OpenStack networking resources, but the abstractions are general enough to apply to computing and storage resources as well.
 							</p>
+							<iframe src="http://www.slideshare.net/vinodborole/slideshelf" width="615px" height="470px" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:none;" allowfullscreen webkitallowfullscreen mozallowfullscreen></iframe>
 							<p>
-							Obvious as it may sound, we complain that the requirements changed so quickly that the original design did not comply. We blame the schedules that were too tight to do things right.
+							The GBP model offers a number of very powerful advantages over the way the current Neutron API works today. Automation and security are much easier to implement through GBP. Simply by becoming a member of a group, a virtual machine inherits all of the group’s policies, allowing developers to easily automate scaling, both up and down. This approach offers a naturally flexible and extensible framework for capturing the requirements of a virtual machine in a single location. It also makes consistency easier to achieve because only one step - becoming a member of the group - is required to inherit multiple policies.
 							</p>
-							We blather about stupid managers and intolerant customers and useless marketing people.  But the fault, my dear friends, is not in our stars, but in us.
+							The model is easy for application developers to use and offers them a simple way to describe application requirements. In fact, it was designed to make advanced capabilities such as service chaining extremely easy to use. Finally, the GBP model offers a means for allowing operator and user requirements to coexist cleanly. After a user describes the requirements for an application, the infrastructure operators can impose additional policy constraints if desired.
 							<p>
-							“We are unprofessional!!”
+							GBP was designed by a community of developers including Big Switch, Cisco, IBM, Juniper, Midokura, Nuage Networks, and One Convergence.
 							</p>
-							<p>
-							This may be a bitter pill to swallow. How could this mess be our fault? What about the requirements? What about the schedule? What about the stupid managers and the useless marketing peoples? Don’t they share some of the blame?
-							</p>
-							<p>
-							NO. The managers and marketing people look to us for the information which they can use to make promises and commitments to the clients; and even when they don’t look to us, we should not be shy about telling them what we think. The end users/clients look to us to validate the requirements and the way it will fit into the system. The project managers look to us to help work out the schedule/project plan. We are deeply associated in the planning of the project and in sharing a great deal of the responsibility for any failures; especially if those failures have to do with bad code!
-							</p>
-							<p>
-							“But wait!” you say. “If I don’t do what my manager says, I’ll be fired.” Probably not.
-							</p>
-							<p>
-							Most managers want the truth, even when they don’t act like it. Most managers want good code, even when they are obsessing about the schedule.
-							</p>
-							<p>
-							They may defend the schedule and requirements with passion; but that’s their job. It’s your job to defend the code with equal passion.
-							</p>
-							<p>
-							To drive this point home, what if you were a doctor and had a patient who demanded that you stop all the silly hand-washing in preparation for surgery because it was taking too much time?  Clearly the patient is the boss; and yet the doctor should absolutely refuse to comply. Why? Because the doctor knows more than the patient about the risks of disease and infection. It would be unprofessional (never mind criminal) for the doctor to comply with the patient.
-							</p>
-							<p>
-							So too, it is unprofessional for programmers to bend to the will of managers who don’t understand the risks of making messes.                          
-                            </p>
                           <!-- 
                           <p>Designer focuses on writing clean. by <strong>UnKown</strong></p>
                           <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.</p>   
